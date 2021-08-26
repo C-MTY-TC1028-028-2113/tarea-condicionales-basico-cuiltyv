@@ -4,9 +4,9 @@ def main():
     num2 = int(input("Ingresa el segundo número: "))
     num3 = int(input("Ingresa el tercer número: "))
 
-    if ???:
+    if num1>=num2 and num1>=num3:
         print(num1)
-    elif ???: 
+    elif num2>=num1 and num2>=num3: 
         print(num2)
     else:
         print(num3)
